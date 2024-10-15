@@ -3,8 +3,7 @@ const esporte = document.querySelectorAll(".tabelas")
 
 const url = 'https://api-dadosjogos.onrender.com'
 
-const imagem = document.querySelector('#cacador6')
-console.log(imagem)
+
 
 
 categoria.addEventListener('click', atualizarPagina)
