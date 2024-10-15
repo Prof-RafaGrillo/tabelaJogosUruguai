@@ -1,12 +1,14 @@
 const categoria = document.getElementById("categoria")
 const esporte = document.querySelectorAll(".tabelas")
+const btn = document.querySelector(".btn")
+
 
 const url = 'https://api-dadosjogos.onrender.com'
 
 
 
 
-categoria.addEventListener('click', atualizarPagina)
+btn.addEventListener('click', atualizarPagina)
 
 
 
