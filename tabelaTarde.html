@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interclasse 2024 - CCM República Oriental do Uruguai</title>
     <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="./estiloTarde.css">
 </head>
 
 <body>
@@ -15,10 +15,18 @@
         <h2 class="cabecalho--titulo">Interclasse 2024 - CCM República Oriental do Uruguai </h2>
     </header>
     <div class="menu">
-        <h2>Escolha o periodo dos jogos</h2>
-        <div class="periodos">
-            <a href="./tabelaManha.html" target="_blank" rel="noopener noreferrer">Manha</a>
-            <a href="./tabelaTarde.html" target="_blank" rel="noopener noreferrer">Tarde</a>
+        <form action="">
+            <label for="categoria" class="menu-etiqueta">Selecione a categoria</label>
+            <select name="categoria" id="categoria" class="categoria">
+                <option value="6" selected>6 ano</option>
+                <option value="7">7 ano</option>
+                <option value="8e9">8 e 9 ano</option>
+                <option value="Em">Ensino Medio</option>
+            </select>
+        </form>
+        <div class="tabelas" id="tabelas">
+
+            
 
         </div>
     </div>

@@ -42,29 +42,47 @@ body{
     justify-content: center ;
     
 }
-h2{
-    margin-top: 20px;
-    font-size: 42px;
+.menu form {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center ;
+   
 }
-.periodos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.periodos a{
-    margin: 50px;
-    padding: 60px;
-    background-color: #fff;
-    text-decoration: none;
-    font-size: 32px;
-    color: #000;
+
+
+
+.categoria{
+    text-align: center;
+    margin: 10px 0 20px;
+    width: 200px;
+    font-size: 20px;
     border-radius: 10px;
+    
 }
 
 
+.tabelas svg {
+    overflow-x: scroll;
+    border-top: 2px solid red;
+    width: 200%;
+    
+}
+#titulos text tspan {
+    fill: #fff !important;
+
+}
+
+.time{
+    font-size: 8px;
+}
+
+.placar{
+    fill: #000;
+    font-size: 8px;
+}
 
 footer{
-    position: fixed;
+    position: relative;
     bottom: 0;
     background-color: var(--color-primary);
     color: var(--bg-dropdown);
@@ -72,7 +90,7 @@ footer{
     height: 2em;
     align-content: center;
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 @media  (min-width:728px) {
