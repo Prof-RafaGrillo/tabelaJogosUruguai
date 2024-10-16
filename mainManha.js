@@ -71,7 +71,7 @@ async function atualizarTabela(esporte) {
                     time.innerHTML = `<tspan class="time">${jogo[1]}</tspan>`
                     placar.innerHTML = `<tspan class="placar">${jogo[2]}</tspan>`
 
-                } else if (j = 1) {
+                } else if (j == 1) {
                     time.innerHTML = `<tspan class="time">${jogo[3]}</tspan>`
                     placar.innerHTML = `<tspan class="placar">${jogo[4]}</tspan>`
                 }
@@ -90,7 +90,7 @@ async function atualizarTabela(esporte) {
                     time.innerHTML = `<tspan class="time">${jogo[1]}</tspan>`
                     placar.innerHTML = `<tspan class="placar">${jogo[2]}</tspan>`
 
-                } else if (j = 1) {
+                } else if (j == 1) {
                     time.innerHTML = `<tspan class="time">${jogo[3]}</tspan>`
                     placar.innerHTML = `<tspan class="placar">${jogo[4]}</tspan>`
                 }
@@ -110,7 +110,7 @@ async function atualizarTabela(esporte) {
                     time.innerHTML = `<tspan class="time">${jogo[1]}</tspan>`
                     placar.innerHTML = `<tspan class="placar">${jogo[2]}</tspan>`
                     
-                } else if (j = 1) {
+                } else if (j == 1) {
                     time.innerHTML = `<tspan class="time">${jogo[3]}</tspan>`
                     placar.innerHTML = `<tspan class="placar">${jogo[4]}</tspan>`
                 }
@@ -129,7 +129,7 @@ async function atualizarTabela(esporte) {
                     time.innerHTML = `<tspan class="time">${jogo[1]}</tspan>`
                     placar.innerHTML = `<tspan class="placar">${jogo[2]}</tspan>`
                  
-                } else if (j = 1) {
+                } else if (j == 1) {
                     time.innerHTML = `<tspan class="time">${jogo[3]}</tspan>`
                     placar.innerHTML = `<tspan class="placar">${jogo[4]}</tspan>`
                 }
