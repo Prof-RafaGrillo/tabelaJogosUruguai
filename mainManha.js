@@ -3,8 +3,8 @@ const esporte = document.querySelectorAll(".tabelas")
 const btn = document.querySelector(".btn")
 
 
-//const url = 'https://api-dadosjogos.onrender.com'
-const url = 'http://127.0.0.0:1337'
+const url = 'https://api-dadosjogos.onrender.com'
+// const url = 'http://127.0.0.0:1337'
 
 
 
